@@ -1,0 +1,59 @@
+site_name: NDVI worker
+site_url: https://example.com/
+plugins:
+    - search
+    - mermaid2
+    - swagger-ui-tag
+
+nav:
+  - Home: index.md
+  - Topic: topic.md
+  - About: about.md 
+  - Swagger: swagger.md 
+  - SentinelHub authentication: sentinelhub_auth.md
+  - Diagrams: diagrams.md  
+  - API: api.md
+  - About2: 
+      - about2.md
+      - about.md
+  - About2: 
+      - about2.md
+      - about.md
+  - Login: 
+      - login.md  
+  - Database:
+      - database.md
+  - Sentinelhub:
+      - sentinelhub.md
+  #- Gitbook tsekkaa:
+  #- DevOps wiki:              
+#theme: material
+theme: windmill
+#gray: "#0000FF"
+#lighter_gray: "#000000"
+extra:    
+    article_nav_bottom: false
+    article_nav_top: false
+    history_buttons: true
+#theme: readthedocs
+#theme: custommill
+#theme: gitbook
+#theme: rtd-dropdown
+#theme:
+#  name: 'rtd-dropdown'
+#theme: mkdocs
+#highlightjs: true
+
+extra_css: 
+  - style.css
+#  - custom.css  
+
+#extra:
+    # Override Read the Docs theme colors
+#    palette:
+#      primary: 'red'
+#      accent: 'orange'
+#      background: 'red'
+#      text: 'black'
+#      link: 'blue'
+#      code: 'grey'

@@ -1,0 +1,13 @@
+/*.md-sidebar {
+    background-color: #FFFF00;
+}*/
+
+#rtd-nav {
+    background-color: #333; /* Change to your desired background color */
+}
+
+
+/* Text color of the navigation menu items */
+#rtd-nav a {
+    color: #f00ff0; /* Change to your desired text color */
+}

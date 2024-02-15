@@ -1,0 +1,66 @@
+{
+  "info": {
+    "title": "NDVIworker",
+    "version": "1.0.0",
+    "description": "fetcching NDVi maps by geometry given"
+  },
+  "swagger": "2.0",
+  "paths": {
+    "/ndvi/api/v1/list": {
+      "post": {
+        "summary": "Get a list",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/ndvi/api/v1/activate": {
+      "post": {
+        "summary": "Activate",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/ndvi/api/v1/image/{sentinelid}": {
+      "get": {
+        "summary": "Get image by Sentinel ID",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "sentinelid",
+            "required": true,
+            "description": "Sentinel ID",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/ndvi/api/v1/status": {
+      "get": {
+        "summary": "Get status",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {},
+  "responses": {},
+  "parameters": {},
+  "securityDefinitions": {},
+  "tags": []
+}

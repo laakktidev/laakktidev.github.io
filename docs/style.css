@@ -1,0 +1,50 @@
+.code-block {
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: darkcyan;
+    font-size:x-large;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    /*background-color: lightblue;*/
+    background-color: yellow;
+}
+
+
+h4 {
+
+    font-size: x-large; 
+ }
+ 
+ 
+
+/* custom.css */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;  /* Set your desired background color */
+}
+
+
+/*
+body {
+    background-color: #FFFF00; /* Any color code or color name */
+}
+*/
